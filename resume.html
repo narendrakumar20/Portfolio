@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akula Narendra Kumar - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header h2 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            opacity: 0.9;
+            font-weight: 400;
+        }
+        .header h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            opacity: 0.9;
+            font-weight: 400;
+        }
+         .header h5 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            opacity: 0.9;
+            font-weight: 100;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 0.9rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .contact-item i {
+            color: rgba(255,255,255,0.8);
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: #667eea;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #667eea;
+            font-weight: 600;
+        }
+
+        .summary {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .experience-item, .project-item, .achievement-item, .certification-item {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .experience-item:last-child,
+        .project-item:last-child,
+        .achievement-item:last-child,
+        .certification-item:last-child {
+            border-bottom: none;
+        }
+
+        .item-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .item-subtitle {
+            color: #667eea;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        .item-description {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-category {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .skill-category h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .skill-tag {
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .project-links {
+            margin-top: 10px;
+        }
+
+        .project-link {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-right: 15px;
+        }
+
+        .project-link:hover {
+            text-decoration: underline;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .stat {
+            text-align: center;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #667eea;
+            display: block;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                padding: 30px 20px;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .resume-container {
+                box-shadow: none;
+                max-width: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Akula Narendra Kumar</h1>
+            <h2>B.Tech CSE (AI & ML) Student</h2>
+            <h3> AI Engineer | Machine Learning Specialist | Web Developer </h3>
+            <h5>akulanarendra20042006@gmail.com | Phone: +91 9866274685</h5>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/akula-narendra-kumar-45a891353/" style="color: white; text-decoration: none;">LinkedIn</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/narendrakumar20" style="color: white; text-decoration: none;">GitHub</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-leetcode"></i>
+                    <a href="https://leetcode.com/u/narendra_kumar_/" style="color: white; text-decoration: none;">Leetcode</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Section -->
+        <div class="content">
+            <!-- Summary -->
+            <div class="section">
+                <h3 class="section-title">Professional Summary</h3>
+                <div class="summary">
+                    <p>Passionate computer science student with a strong foundation in full stack development, cloud technologies, and machine learning. Currently pursuing B.Tech in CSE (AI & ML) while actively building projects that demonstrate skills in modern web technologies and cloud platforms. Love exploring new technologies, contributing to open source projects, and participating in hackathons.</p>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="section">
+                <h3 class="section-title">Education</h3>
+                <div class="experience-item">
+                    <div class="item-title">Bachelor of Technology - Computer Science Engineering (AI & ML)</div>
+                    <div class="item-subtitle">2023 - 2027 | Anil Neerukonda Institute of Technology and Sciences (ANITS), Visakhapatnam, India</div>
+                    <div class="item-description">CGPA: 9.1/10 | Expected Graduation: 2027</div>
+                </div>
+                <div class="experience-item">
+                    <div class="item-title">Intermediate (MPC)</div>
+                    <div class="item-subtitle">2021 - 2023 | Sri Chaitanya Junior College of Education, Visakhapatnam, India</div>
+                    <div class="item-description">Percentage: 96.1%</div>
+                </div>
+                <div class="experience-item">
+                    <div class="item-title">High School (X)</div>
+                    <div class="item-subtitle">2020 - 2021 | Bapu Vidya Nikethan, Visakhapatnam, India</div>
+                    <div class="item-description">Percentage: 97%</div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="section">
+                <h3 class="section-title">Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Full Stack Development</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">REST APIs</span>
+                            <span class="skill-tag">HTML/CSS</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Machine Learning & AI</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">Jupyter</span>
+                            <span class="skill-tag">Data Preprocessing</span>
+                            <span class="skill-tag">Deep Learning</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Data Structures & Algorithms</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Strings</span>
+                            <span class="skill-tag">Arrays</span>
+                            <span class="skill-tag">Linked Lists</span>
+                            <span class="skill-tag">Stacks</span>
+                            <span class="skill-tag">Queues</span>
+                            <span class="skill-tag">Trees</span>
+                            <span class="skill-tag">Graphs</span>
+                            <span class="skill-tag">Dynamic Programming</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects -->
+            <div class="section">
+                <h3 class="section-title">Key Projects</h3>
+
+                <div class="project-item">
+                    <div class="item-title">Steel-Design-Predictor</div>
+                    <div class="item-subtitle">Machine Learning Web Application</div>
+                    <div class="item-description">A machine learning–based web application that predicts steel design properties and strength using input parameters for quick and accurate engineering decisions.</div>
+                    <div class="skill-tags" style="margin-top: 10px;">
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://steel-design-predictor-gtmzcci7ycrmwybawarwem.streamlit.app/" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/narendrakumar20/steel-design-predictor" class="project-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="item-title">InfiGrow - College Placement Platform</div>
+                    <div class="item-subtitle">Firebase-based Web Platform</div>
+                    <div class="item-description">A comprehensive Firebase-based platform designed to boost college placements at ANITS by providing learners with resources, mentorship, and placement preparation tools in one centralized location.</div>
+                    <div class="skill-tags" style="margin-top: 10px;">
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Firestore</span>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="item-title">Quiz-Master</div>
+                    <div class="item-subtitle">Interactive Quiz Platform</div>
+                    <div class="item-description">A comprehensive platform for creating, sharing, and taking quizzes. Users can test their knowledge across various topics, track progress over time, and gain insights into their performance.</div>
+                    <div class="skill-tags" style="margin-top: 10px;">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">JSON</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://quiz-master-beta-bice.vercel.app/" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/narendrakumar20/Quiz-Master" class="project-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Leadership Experience -->
+            <div class="section">
+                <h3 class="section-title">Leadership Experience</h3>
+
+                <div class="experience-item">
+                    <div class="item-title">CodeClash Organizer</div>
+                    <div class="item-subtitle">College Event - ANITS</div>
+                    <div class="item-description">Organized and successfully conducted "CodeClash", a competitive coding event at college level. Managed platform setup, challenges, participant coordination, and ensured smooth execution of the competition.</div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="item-title">Rapid Fire Organizer</div>
+                    <div class="item-subtitle">College Event - ANITS</div>
+                    <div class="item-description">Successfully conducted a Rapid Fire Event filled with energy, quick thinking, and healthy competition. Participants showcased technical knowledge, presence of mind, and confidence under time pressure.</div>
+                </div>
+            </div>
+
+            <!-- Achievements -->
+            <div class="section">
+                <h3 class="section-title">Achievements</h3>
+
+                <div class="achievement-item">
+                    <div class="item-title">Machine Learning Internship</div>
+                    <div class="item-subtitle">CodeTech</div>
+                    <div class="item-description">Completed comprehensive Machine Learning internship program covering practical applications and real-world projects.</div>
+                </div>
+
+                <div class="achievement-item">
+                    <div class="item-title">LeetCode Problem Solving</div>
+                    <div class="item-subtitle">600+ Problems Solved</div>
+                    <div class="item-description">Demonstrated strong problem-solving skills by solving over 600 algorithmic problems on LeetCode platform.</div>
+                </div>
+
+                <div class="achievement-item">
+                    <div class="item-title">GeeksForGeeks DSA Course</div>
+                    <div class="item-subtitle">Complete Course Certification</div>
+                    <div class="item-description">Successfully completed the Data Structures and Algorithms course on GeeksForGeeks and received completion certificate and T-shirt.</div>
+                </div>
+
+                <div class="achievement-item">
+                    <div class="item-title">NPTEL Certification</div>
+                    <div class="item-subtitle">Design and Analysis of Algorithms</div>
+                    <div class="item-description">Completed NPTEL course on Design and Analysis of Algorithms, gaining deep understanding of algorithmic principles and analysis techniques.</div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="section">
+                <h3 class="section-title">Certifications</h3>
+
+                <div class="certification-item">
+                    <div class="item-title">GFG 160 Days Challenge</div>
+                    <div class="item-subtitle">GeeksForGeeks</div>
+                    <div class="item-description">Successfully completed 160 days of problem-solving challenge, demonstrating consistent dedication to algorithmic problem-solving.</div>
+                </div>
+
+                <div class="certification-item">
+                    <div class="item-title">Machine Learning Internship</div>
+                    <div class="item-subtitle">CodeTech</div>
+                    <div class="item-description">Professional certification for Machine Learning internship completion with hands-on project experience.</div>
+                </div>
+
+                <div class="certification-item">
+                    <div class="item-title">Design and Analysis of Algorithms</div>
+                    <div class="item-subtitle">NPTEL</div>
+                    <div class="item-description">Comprehensive certification covering advanced algorithmic concepts and their analysis.</div>
+                </div>
+            </div>
+
+          
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>

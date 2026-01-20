@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akula Narendra Kumar-Personal portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-background">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+        <div class="loader-content">
+            <div class="chatgpt-loader">
+                <div class="ring ring-1"></div>
+                <div class="ring ring-2"></div>
+                <div class="ring ring-3"></div>
+                <div class="center-dot"></div>
+            </div>
+            <div class="loader-text-wrapper">
+                <h1 class="loader-title">
+                    <span class="letter" style="--i:0">I</span>
+                    <span class="letter" style="--i:1">n</span>
+                    <span class="letter" style="--i:2">i</span>
+                    <span class="letter" style="--i:3">t</span>
+                    <span class="letter" style="--i:4">i</span>
+                    <span class="letter" style="--i:5">a</span>
+                    <span class="letter" style="--i:6">l</span>
+                    <span class="letter" style="--i:7">i</span>
+                    <span class="letter" style="--i:7">z</span>
+                    <span class="letter" style="--i:7">i</span>
+                    <span class="letter" style="--i:7">n</span>
+                    <span class="letter" style="--i:7">g</span>
+                </h1>
+                <div class="loading-dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background -->
+    <div class="background">
+        <div class="bg-animation"></div>
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <!-- Twinkling stars - 70+ stars -->
+        <div class="star star-1" style="width: 2px; height: 2px; top: 10%; left: 15%;"></div>
+        <div class="star star-2" style="width: 3px; height: 3px; top: 20%; left: 30%;"></div>
+        <div class="star star-3" style="width: 2px; height: 2px; top: 15%; left: 50%;"></div>
+        <div class="star star-4" style="width: 2.5px; height: 2.5px; top: 25%; left: 70%;"></div>
+        <div class="star star-5" style="width: 2px; height: 2px; top: 12%; left: 85%;"></div>
+        <div class="star star-1" style="width: 2px; height: 2px; top: 35%; left: 20%;"></div>
+        <div class="star star-2" style="width: 3px; height: 3px; top: 40%; left: 40%;"></div>
+        <div class="star star-3" style="width: 2px; height: 2px; top: 45%; left: 60%;"></div>
+        <div class="star star-4" style="width: 2.5px; height: 2.5px; top: 38%; left: 75%;"></div>
+        <div class="star star-5" style="width: 2px; height: 2px; top: 50%; left: 25%;"></div>
+        <div class="star star-1" style="width: 2px; height: 2px; top: 60%; left: 35%;"></div>
+        <div class="star star-2" style="width: 3px; height: 3px; top: 65%; left: 55%;"></div>
+        <div class="star star-3" style="width: 2px; height: 2px; top: 70%; left: 80%;"></div>
+        <div class="star star-4" style="width: 2.5px; height: 2.5px; top: 68%; left: 15%;"></div>
+        <div class="star star-5" style="width: 2px; height: 2px; top: 75%; left: 45%;"></div>
+        <div class="star star-1" style="width: 2px; height: 2px; top: 5%; left: 5%;"></div>
+        <div class="star star-2" style="width: 2.5px; height: 2.5px; top: 8%; left: 25%;"></div>
+        <div class="star star-3" style="width: 2px; height: 2px; top: 18%; left: 10%;"></div>
+        <div class="star star-4" style="width: 3px; height: 3px; top: 22%; left: 45%;"></div>
+        <div class="star star-5" style="width: 2px; height: 2px; top: 28%; left: 88%;"></div>
+        <div class="star star-1" style="width: 2.5px; height: 2.5px; top: 32%; left: 8%;"></div>
+        <div class="star star-2" style="width: 2px; height: 2px; top: 42%; left: 22%;"></div>
+        <div class="star star-3" style="width: 2px; height: 2px; top: 48%; left: 78%;"></div>
+        <div class="star star-4" style="width: 2.5px; height: 2.5px; top: 55%; left: 12%;"></div>
+        <div class="star star-5" style="width: 2px; height: 2px; top: 62%; left: 65%;"></div>
+        <div class="star star-1" style="width: 2px; height: 2px; top: 72%; left: 35%;"></div>
+        <div class="star star-2" style="width: 3px; height: 3px; top: 78%; left: 60%;"></div>
+        <div class="star star-3" style="width: 2px; height: 2px; top: 82%; left: 5%;"></div>
+        <div class="star star-4" style="width: 2.5px; height: 2.5px; top: 88%; left: 80%;"></div>
+        <div class="star star-5" style="width: 2px; height: 2px; top: 92%; left: 40%;"></div>
+        <div class="star star-1" style="width: 2px; height: 2px; top: 7%; left: 42%;"></div>
+        <div class="star star-2" style="width: 2.5px; height: 2.5px; top: 14%; left: 67%;"></div>
+        <div class="star star-3" style="width: 2px; height: 2px; top: 19%; left: 92%;"></div>
+        <div class="star star-4" style="width: 2px; height: 2px; top: 30%; left: 58%;"></div>
+        <div class="star star-5" style="width: 3px; height: 3px; top: 36%; left: 32%;"></div>
+        <div class="star star-1" style="width: 2px; height: 2px; top: 52%; left: 48%;"></div>
+        <div class="star star-2" style="width: 2.5px; height: 2.5px; top: 58%; left: 25%;"></div>
+        <div class="star star-3" style="width: 2px; height: 2px; top: 66%; left: 18%;"></div>
+        <div class="star star-4" style="width: 2px; height: 2px; top: 76%; left: 72%;"></div>
+        <div class="star star-5" style="width: 2.5px; height: 2.5px; top: 85%; left: 28%;"></div>
+        <!-- Extra dense stars layer -->
+        <div class="star star-1" style="width: 2px; height: 2px; top: 3%; left: 38%;"></div>
+        <div class="star star-2" style="width: 2.5px; height: 2.5px; top: 6%; left: 62%;"></div>
+        <div class="star star-3" style="width: 2px; height: 2px; top: 11%; left: 28%;"></div>
+        <div class="star star-4" style="width: 2px; height: 2px; top: 17%; left: 75%;"></div>
+        <div class="star star-5" style="width: 3px; height: 3px; top: 24%; left: 15%;"></div>
+        <div class="star star-1" style="width: 2px; height: 2px; top: 29%; left: 78%;"></div>
+        <div class="star star-2" style="width: 2.5px; height: 2.5px; top: 33%; left: 42%;"></div>
+        <div class="star star-3" style="width: 2px; height: 2px; top: 39%; left: 8%;"></div>
+        <div class="star star-4" style="width: 2px; height: 2px; top: 44%; left: 85%;"></div>
+        <div class="star star-5" style="width: 2.5px; height: 2.5px; top: 51%; left: 35%;"></div>
+        <div class="star star-1" style="width: 2px; height: 2px; top: 56%; left: 52%;"></div>
+        <div class="star star-2" style="width: 3px; height: 3px; top: 61%; left: 22%;"></div>
+        <div class="star star-3" style="width: 2px; height: 2px; top: 67%; left: 42%;"></div>
+        <div class="star star-4" style="width: 2px; height: 2px; top: 73%; left: 88%;"></div>
+        <div class="star star-5" style="width: 2.5px; height: 2.5px; top: 79%; left: 18%;"></div>
+        <div class="star star-1" style="width: 2px; height: 2px; top: 86%; left: 55%;"></div>
+        <div class="star star-2" style="width: 2px; height: 2px; top: 91%; left: 12%;"></div>
+        <div class="star star-3" style="width: 2.5px; height: 2.5px; top: 95%; left: 68%;"></div>
+        <div class="star star-4" style="width: 2px; height: 2px; top: 4%; left: 72%;"></div>
+        <div class="star star-5" style="width: 3px; height: 3px; top: 9%; left: 48%;"></div>
+        <div class="star star-1" style="width: 2px; height: 2px; top: 21%; left: 35%;"></div>
+        <div class="star star-2" style="width: 2.5px; height: 2.5px; top: 26%; left: 58%;"></div>
+        <div class="star star-3" style="width: 2px; height: 2px; top: 31%; left: 72%;"></div>
+        <div class="star star-4" style="width: 2px; height: 2px; top: 41%; left: 18%;"></div>
+        <div class="star star-5" style="width: 2.5px; height: 2.5px; top: 47%; left: 68%;"></div>
+        <div class="star star-1" style="width: 2px; height: 2px; top: 54%; left: 8%;"></div>
+        <div class="star star-2" style="width: 2px; height: 2px; top: 59%; left: 78%;"></div>
+        <div class="star star-3" style="width: 3px; height: 3px; top: 64%; left: 38%;"></div>
+        <div class="star star-4" style="width: 2px; height: 2px; top: 69%; left: 58%;"></div>
+        <div class="star star-5" style="width: 2.5px; height: 2.5px; top: 80%; left: 35%;"></div>
+        <div class="star star-1" style="width: 2px; height: 2px; top: 87%; left: 62%;"></div>
+        <div class="star star-2" style="width: 2px; height: 2px; top: 93%; left: 82%;"></div>
+        <div class="star star-3" style="width: 2.5px; height: 2.5px; top: 2%; left: 18%;"></div>
+        <div class="star star-4" style="width: 2px; height: 2px; top: 13%; left: 58%;"></div>
+        <div class="star star-5" style="width: 2px; height: 2px; top: 27%; left: 8%;"></div>
+        <div class="star star-1" style="width: 3px; height: 3px; top: 37%; left: 52%;"></div>
+        <div class="star star-2" style="width: 2px; height: 2px; top: 43%; left: 32%;"></div>
+        <div class="star star-3" style="width: 2.5px; height: 2.5px; top: 49%; left: 82%;"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Narendra Kumar</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                <a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a>
+                <a href="#projects" class="nav-link"><i class="fas fa-cloud"></i> Projects</a>
+                <a href="#skills" class="nav-link"><i class="fas fa-bolt"></i> Skills</a>
+                <a href="#contact" class="nav-link"><i class="fas fa-phone"></i> Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-card glass-card">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Akula Narendra Kumar</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        B.Tech CSE (AI & ML) Student | Full Stack Developer | AI Enthusiast
+                    </p>
+                    <p class="hero-description">
+                        Passionate computer science student with a strong foundation in full stack development, cloud technologies,
+                         and machine learning. Currently pursuing my degree while actively building projects that demonstrate my skills
+                         in modern web technologies and cloud platforms.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-code"></i> View Projects
+                        </a>
+                        <a href="resume.html" class="btn btn-secondary" target="_blank">
+                            <i class="fas fa-file-alt"></i> View Resume
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card glass-card">
+                        <img src="nari.jpeg" alt="A.Narendra Kumar" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h4 class="section-title" style="font-size: 2rem">A little bit</h4>
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text glass-card">
+                    <h3>Computer Science Student & Tech Enthusiast</h3>
+                    <p>
+                        I'm a passionate computer science student with a strong foundation in full stack development, cloud technologies,
+                         and machine learning. Currently pursuing my degree while actively building projects that demonstrate my skills
+                         in modern web technologies and cloud platforms.
+                    </p>
+                    <p> My hometown is Visakhapatnam, where the sea breeze fuels
+                        my inspiration. When I'm not immersed in code, you find me on the football field, strategizing my next move. Video games provide an escape, and chess sharpens my mind.
+                        Music? It's my soul's language. Oh, and I dabble in editing too—because life's a canvas waiting to be transformed!</p>
+                    <p>
+                        I love exploring new technologies, contributing to open source projects, and participating in
+                        hackathons. My goal is to become a well-rounded software engineer who can bridge the gap
+                        between development and operations while leveraging AI/ML to create innovative solutions.
+                    </p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h4>3</h4>
+                            <p>Projects Built</p>
+                        </div>
+                        <div class="stat">
+                            <h4>3</h4>
+                            <p>Certifications</p>
+                        </div>
+                        <div class="stat">
+                            <h4>15+</h4>
+                            <p>Technologies Mastered</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category glass-card">
+                    <h3><i class="fas fa-code"></i>Full Stack Development</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3><i class="fas fa-cloud"></i> Machine Learning</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Jupyter</span>
+                        <span class="skill-tag">Data Preprocessing</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">Feature Engineering</span>
+                    </div>
+                </div>
+                  <div class="skill-category glass-card">
+                    <h3><i class="fas fa-code"></i>Data Structures & Algorithm</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Strings</span>
+                        <span class="skill-tag">Array</span>
+                        <span class="skill-tag">Array List</span>
+                        <span class="skill-tag">Linked List</span>
+                        <span class="skill-tag">Stack</span>
+                        <span class="skill-tag">Queue</span>
+                        <span class="skill-tag">Trees</span>
+                        <span class="skill-tag">Graphs</span>
+                        <span class="skill-tag">Dynamic Programming</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card glass-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                           <i class="fas fa-tools"></i>
+
+
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+                        <h3>Steel-Design-predictor</h3>
+                        <p>A machine learning–based web application that predicts steel design properties and strength using input parameters for quick and accurate engineering decisions</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Stremlit</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Numpy</span>
+                        </div>
+                        <div class="project-links">
+                             <a href="https://steel-design-predictor-gtmzcci7ycrmwybawarwem.streamlit.app/" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/narendrakumar20/steel-design-predictor" class="project-link">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>InfiGrow - College Placement Platform</h3>
+                        <p>A comprehensive Firebase-based platform designed to boost college placements at ANITS by providing learners with resources, mentorship, and placement preparation tools in one centralized location.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Firestore</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Quiz-Master</h3>
+                        <p>Quiz Master is a comprehensive platform designed for creating, sharing, and taking quizzes. It allows users to test their knowledge across various topics, track their progress over time, and gain insights into their performance</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Java Script</span>
+                            <span class="tech-tag">Json</span>
+                        </div>
+                         <div class="project-links">
+                             <a href="https://quiz-master-chi-rouge.vercel.app/" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/narendrakumar20/Quiz-Master" class="project-link">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership" class="leadership">
+        <div class="container">
+            <h2 class="section-title">Leadership Experience</h2>
+            <div class="leadership-grid">
+                <div class="leadership-card glass-card">
+                    <div class="leadership-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>CodeClash Organizer</h3>
+                    <p class="leadership-year">College</p>
+                    <p>Organized and successfully conducted "CodeClash", a competitive coding event at college level, setting up platform and challenges, managing participants, and ensuring smooth execution of the competition.</p>
+                </div>
+                <div class="leadership-card glass-card">
+                    <div class="leadership-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>Rapid Fire Organizer</h3>
+                    <p class="leadership-year">College</p>
+                    <p>Successfully conducted a Rapid Fire Event, filled with energy, quick thinking, and healthy competition 
+Participants showcased their technical knowledge, presence of mind, and confidence under time pressure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card glass-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Machine Learning</h3>
+                    <p>Completed <strong>Machine Learning</strong>  Internship</p>
+                </div>
+                <div class="achievement-card glass-card">
+                    <i class="fas fa-code"></i>
+
+                    <h3>Leetcode</h3>
+                    <p>Solved <strong>600+ problems</strong> on Leetcode    </p>
+                </div>
+                <div class="achievement-card glass-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Geeks For Geeks</h3>
+                    <p>Successfully completed the <strong>(DSA)</strong> Course and received a certificate and T-shirt of completion from GeeksforGeeks</p>
+                </div>
+                <div class="achievement-card glass-card">
+                    <i class="fas fa-code"></i>
+                    <h3>NPTEL</h3>
+                    <p>Completed <strong>Design and Analysis of Algorithms</strong> Course </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card glass-card">
+                    <div class="cert-header">
+                        <i class="fas fa-certificate"></i>
+                        <h3>GFG 160 Days</h3>
+                    </div>
+                    <p>160 Days of Problem Solving</p>
+                    <span class="cert-issuer">GeeksForGeeks</span>
+                </div>
+                <div class="certification-card glass-card">
+                    <div class="cert-header">
+                        <i class="fas fa-certificate"></i>
+                        <h3>CodeTech</h3>
+                    </div>
+                    <p> Machine Learning Internship</p>
+                    <span class="cert-issuer">CodeTech</span>
+                </div>
+                <div class="certification-card glass-card">
+                    <div class="cert-header">
+                        <i class="fas fa-certificate"></i>
+                        <h3>NPTEL</h3>
+                    </div>
+                    <p>Design and Analysis of Algorithms </p>
+                    <span class="cert-issuer">NPTEL</span>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info glass-card">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Let's discuss how we can work together!</p>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>akulanarendra20042006@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Visakhapatnam, India
+</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/akula-narendra-kumar-45a891353/" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/narendrakumar20" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://x.com/__narendra_20" class="social-link">
+                            <i class="fab fa-x"></i>
+                        </a>
+                        <a href="https://www.instagram.com/__narendra_20/" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form glass-card" novalidate>
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required minlength="2" maxlength="50">
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required minlength="3" maxlength="100">
+                        <span class="error-message" id="subject-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required minlength="10" maxlength="1000"></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 A.Narendra Kumar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
