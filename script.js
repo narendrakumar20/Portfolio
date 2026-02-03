@@ -150,10 +150,9 @@ window.addEventListener('scroll', () => {
 });
 
 // EmailJS Configuration
-// TODO: Replace these with your actual EmailJS credentials after setting up your account
-const EMAILJS_SERVICE_ID = 'service_a6x1m68';     // e.g., 'service_abc123'
-const EMAILJS_TEMPLATE_ID = 'template_119gwji';   // e.g., 'template_xyz789'
-const EMAILJS_PUBLIC_KEY = 'jYysUsaYkJZ1jI_Qn';     // Your EmailJS public key
+const EMAILJS_SERVICE_ID = 'akula_narendra_kumar';
+const EMAILJS_TEMPLATE_ID = 'narendra_20';
+const EMAILJS_PUBLIC_KEY = 'vfqFW58u_BZT7lg0G';
 
 // Initialize EmailJS
 (function() {
@@ -181,6 +180,7 @@ if (contactForm) {
         const templateParams = {
             from_name: formData.get('name'),
             from_email: formData.get('email'),
+            to_email: 'akulanarendra20042006@gmail.com',
             subject: formData.get('subject'),
             message: formData.get('message')
         };
