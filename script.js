@@ -180,6 +180,7 @@ if (contactForm) {
         const templateParams = {
             from_name: formData.get('name'),
             from_email: formData.get('email'),
+            reply_to: formData.get('email'),
             to_email: 'akulanarendra20042006@gmail.com',
             subject: formData.get('subject'),
             message: formData.get('message')
