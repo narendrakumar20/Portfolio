@@ -1,0 +1,4 @@
+# Git ignore patterns
+*.DS_Store
+Thumbs.db
+

@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akula Narendra Kumar | Portfolio</title>
+    <link rel="icon" type="image/png" href="/logo.png">
+    <meta name="description"
+        content="Akula Narendra Kumar is a B.Tech CSE (AI & ML) Student, Full Stack Developer, and AI Enthusiast">
+    <meta name="author" content="Akula Narendra Kumar">
+    <meta name="theme-color" content="#6366f1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <video class="loading-video" autoplay muted playsinline>
+            <source src="loading.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Background Effects -->
+    <div class="background">
+        <!-- Gradient Orbs -->
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+
+        <!-- Stars -->
+        <div class="stars">
+            <div class="star" style="top: 10%; left: 15%;"></div>
+            <div class="star" style="top: 20%; left: 30%;"></div>
+            <div class="star" style="top: 15%; left: 50%;"></div>
+            <div class="star" style="top: 25%; left: 70%;"></div>
+            <div class="star" style="top: 12%; left: 85%;"></div>
+            <div class="star" style="top: 35%; left: 20%;"></div>
+            <div class="star" style="top: 40%; left: 40%;"></div>
+            <div class="star" style="top: 45%; left: 60%;"></div>
+            <div class="star" style="top: 38%; left: 75%;"></div>
+            <div class="star" style="top: 50%; left: 25%;"></div>
+            <div class="star" style="top: 60%; left: 35%;"></div>
+            <div class="star" style="top: 65%; left: 55%;"></div>
+            <div class="star" style="top: 70%; left: 80%;"></div>
+            <div class="star" style="top: 68%; left: 15%;"></div>
+            <div class="star" style="top: 75%; left: 45%;"></div>
+        </div>
+
+        <!-- Meteors -->
+        <div class="meteors">
+            <div class="meteor" style="top: 20%; left: 80%;"></div>
+            <div class="meteor" style="top: 40%; left: 60%;"></div>
+            <div class="meteor" style="top: 60%; left: 40%;"></div>
+            <div class="meteor" style="top: 80%; left: 20%;"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="nav-logo">NARENDRA<span>.</span></a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Akula Narendra Kumar</h1>
+                <h2 class="hero-title">
+                    <span class="typewriter"></span>
+                    <span class="cursor">|</span>
+                </h2>
+                <p class="hero-description">
+                    B.Tech CSE (AI & ML) Student | Full Stack Developer | AI Enthusiast
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        View Projects
+                    </a>
+                    <a href="Narendra_Resume.pdf" class="btn btn-secondary" target="_blank">
+                        Resume
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/akula-narendra-kumar-45a891353/" class="social-link"
+                        target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/narendrakumar20" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://x.com/__narendra_20" class="social-link" target="_blank">
+                        <i class="fab fa-x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/__narendra_20/" class="social-link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="hero-image-wrapper">
+                    <img src="nari.jpeg" alt="Akula Narendra Kumar" class="hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Who am I?</h3>
+                    <p>
+                        I am a Computer Science student passionate about technology, especially full-stack development,
+                        cloud computing, and machine learning. I am currently pursuing my B.Tech in Computer Science
+                        Engineering with a specialization in AI & ML, where I focus on building practical projects using
+                        modern web technologies and cloud platforms.
+                    </p>
+                    <p>
+                        I come from Visakhapatnam, a beautiful coastal city. Outside academics, I enjoy playing cricket,
+                        video games, and chess, which help me stay active and enhance my strategic thinking. I like
+                        watching movies in my free time to relax.
+                    </p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h4>3+</h4>
+                        <p>Projects Built</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>3+</h4>
+                        <p>Certifications</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>15+</h4>
+                        <p>Technologies</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>700+</h4>
+                        <p>Leetcode Problems</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+
+            <!-- Skill Category Tabs -->
+            <div class="skill-tabs">
+                <button class="skill-tab active" data-category="all">
+                    <i class="fas fa-th"></i> All
+                </button>
+                <button class="skill-tab" data-category="fullstack">
+                    <i class="fas fa-code"></i> Full Stack
+                </button>
+                <button class="skill-tab" data-category="ml">
+                    <i class="fas fa-brain"></i> ML & AI
+                </button>
+                <button class="skill-tab" data-category="dsa">
+                    <i class="fas fa-database"></i> DSA
+                </button>
+                <button class="skill-tab" data-category="languages">
+                    <i class="fas fa-terminal"></i> Languages
+                </button>
+                <button class="skill-tab" data-category="tools">
+                    <i class="fas fa-wrench"></i> Tools
+                </button>
+            </div>
+
+            <!-- Skills Orbit Container -->
+            <div class="skills-showcase">
+                <!-- Full Stack Development -->
+                <div class="skill-planet" data-category="fullstack">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fab fa-react"></i></div>
+                    <span class="planet-label">React</span>
+                </div>
+                <div class="skill-planet" data-category="fullstack">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fab fa-node-js"></i></div>
+                    <span class="planet-label">Node.js</span>
+                </div>
+                <div class="skill-planet" data-category="fullstack">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fab fa-java"></i></div>
+                    <span class="planet-label">Java</span>
+                </div>
+                <div class="skill-planet" data-category="fullstack">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fab fa-js-square"></i></div>
+                    <span class="planet-label">JavaScript</span>
+                </div>
+                <div class="skill-planet" data-category="fullstack">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-leaf"></i></div>
+                    <span class="planet-label">MongoDB</span>
+                </div>
+                <div class="skill-planet" data-category="fullstack">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-database"></i></div>
+                    <span class="planet-label">PostgreSQL</span>
+                </div>
+                <div class="skill-planet" data-category="fullstack">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-plug"></i></div>
+                    <span class="planet-label">REST APIs</span>
+                </div>
+                <div class="skill-planet" data-category="fullstack">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fab fa-html5"></i></div>
+                    <span class="planet-label">HTML/CSS</span>
+                </div>
+
+                <!-- Machine Learning -->
+                <div class="skill-planet" data-category="ml">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-brain"></i></div>
+                    <span class="planet-label">TensorFlow</span>
+                </div>
+                <div class="skill-planet" data-category="ml">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-fire"></i></div>
+                    <span class="planet-label">PyTorch</span>
+                </div>
+                <div class="skill-planet" data-category="ml">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-cogs"></i></div>
+                    <span class="planet-label">Scikit-learn</span>
+                </div>
+                <div class="skill-planet" data-category="ml">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-table"></i></div>
+                    <span class="planet-label">Pandas</span>
+                </div>
+                <div class="skill-planet" data-category="ml">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-book-open"></i></div>
+                    <span class="planet-label">Jupyter</span>
+                </div>
+                <div class="skill-planet" data-category="ml">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-chart-bar"></i></div>
+                    <span class="planet-label">Data Analysis</span>
+                </div>
+                <div class="skill-planet" data-category="ml">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-network-wired"></i></div>
+                    <span class="planet-label">Deep Learning</span>
+                </div>
+                <div class="skill-planet" data-category="ml">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-filter"></i></div>
+                    <span class="planet-label">Feature Eng.</span>
+                </div>
+                <div class="skill-planet" data-category="ml">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-broom"></i></div>
+                    <span class="planet-label">Data Preprocessing</span>
+                </div>
+
+                <!-- DSA -->
+                <div class="skill-planet" data-category="dsa">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-font"></i></div>
+                    <span class="planet-label">Strings</span>
+                </div>
+                <div class="skill-planet" data-category="dsa">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-th-list"></i></div>
+                    <span class="planet-label">Array</span>
+                </div>
+                <div class="skill-planet" data-category="dsa">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-list"></i></div>
+                    <span class="planet-label">Array List</span>
+                </div>
+                <div class="skill-planet" data-category="dsa">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-link"></i></div>
+                    <span class="planet-label">Linked List</span>
+                </div>
+                <div class="skill-planet" data-category="dsa">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-layer-group"></i></div>
+                    <span class="planet-label">Stack</span>
+                </div>
+                <div class="skill-planet" data-category="dsa">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-stream"></i></div>
+                    <span class="planet-label">Queue</span>
+                </div>
+                <div class="skill-planet" data-category="dsa">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-sitemap"></i></div>
+                    <span class="planet-label">Trees</span>
+                </div>
+                <div class="skill-planet" data-category="dsa">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-project-diagram"></i></div>
+                    <span class="planet-label">Graphs</span>
+                </div>
+                <div class="skill-planet" data-category="dsa">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-puzzle-piece"></i></div>
+                    <span class="planet-label">Dynamic Prog.</span>
+                </div>
+
+                <!-- Programming Languages -->
+                <div class="skill-planet" data-category="languages">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-copyright"></i></div>
+                    <span class="planet-label">C</span>
+                </div>
+                <div class="skill-planet" data-category="languages">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fab fa-java"></i></div>
+                    <span class="planet-label">Java</span>
+                </div>
+                <div class="skill-planet" data-category="languages">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-database"></i></div>
+                    <span class="planet-label">SQL</span>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-planet" data-category="tools">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fab fa-git-alt"></i></div>
+                    <span class="planet-label">Git</span>
+                </div>
+                <div class="skill-planet" data-category="tools">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fab fa-github"></i></div>
+                    <span class="planet-label">GitHub</span>
+                </div>
+                <div class="skill-planet" data-category="tools">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-cube"></i></div>
+                    <span class="planet-label">Fusion 360</span>
+                </div>
+                <div class="skill-planet" data-category="tools">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-drafting-compass"></i></div>
+                    <span class="planet-label">AutoCAD</span>
+                </div>
+                <div class="skill-planet" data-category="tools">
+                    <div class="planet-glow"></div>
+                    <div class="planet-icon"><i class="fas fa-laptop-code"></i></div>
+                    <span class="planet-label">VS Code</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" style="--card-accent: #6366f1;">
+                    <div class="project-card-glow"></div>
+                    <div class="project-number">01</div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Steel-Design-Predictor</h3>
+                    </div>
+                    <div class="project-image">
+                        <img src="steel-predictor.png" alt="Steel Design Predictor Screenshot">
+                    </div>
+                    <div class="project-content">
+                        <p>A machine learning-based web application that predicts steel design properties and strength
+                            using input parameters for quick and accurate engineering decisions.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Streamlit</span>
+                            <span class="project-tag">Scikit-learn</span>
+                            <span class="project-tag">Pandas</span>
+                            <span class="project-tag">Numpy</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://steel-design-predictor-gtmzcci7ycrmwybawarwem.streamlit.app/"
+                                target="_blank" class="project-link btn-lime">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" style="--card-accent: #8b5cf6;">
+                    <div class="project-card-glow"></div>
+                    <div class="project-number">02</div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>InfiGrow</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>A comprehensive Firebase-based platform designed to boost college placements at ANITS by
+                            providing learners with resources, mentorship, and placement preparation tools.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Firebase</span>
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Firestore</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" style="--card-accent: #a78bfa;">
+                    <div class="project-card-glow"></div>
+                    <div class="project-number">03</div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <h3>Quiz-Master</h3>
+                    </div>
+                    <div class="project-image">
+                        <img src="quiz-master.png" alt="Quiz Master Screenshot">
+                    </div>
+                    <div class="project-content">
+                        <p>A comprehensive platform for creating, sharing, and taking quizzes. Users can test their
+                            knowledge, track progress, and gain insights into their performance.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">JSON</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://quiz-master-chi-rouge.vercel.app/" target="_blank"
+                                class="project-link btn-lime">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership" class="leadership">
+        <div class="container">
+            <h2 class="section-title">Leadership</h2>
+            <div class="leadership-grid">
+                <div class="leadership-card">
+                    <div class="leadership-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>CodeClash Organizer</h3>
+                    <p>Organized and conducted "CodeClash", a competitive coding event at college level, managing
+                        participants and ensuring smooth execution.</p>
+                </div>
+                <div class="leadership-card">
+                    <div class="leadership-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Rapid Fire Organizer</h3>
+                    <p>Conducted a Rapid Fire Event where participants showcased their technical knowledge, presence of
+                        mind, and confidence under time pressure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>ML Internship</h3>
+                    <p>Completed Machine Learning Internship at CodeTech</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Leetcode</h3>
+                    <p>Solved 600+ problems on Leetcode</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>GeeksForGeeks</h3>
+                    <p>Completed DSA Course with certificate</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-book"></i>
+                    <h3>NPTEL</h3>
+                    <p>Completed Design and Analysis of Algorithms</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Certificate Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+
+
+
+                <div class="certification-card glass-card">
+                    <div class="cert-header">
+                        <i class="fas fa-certificate"></i>
+                        <h3>GFG 160 Days</h3>
+                    </div>
+                    <p>160 Days of Problem Solving</p>
+                    <span class="cert-issuer">GeeksForGeeks</span>
+                </div>
+                <div class="certification-card glass-card">
+                    <div class="cert-header">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Machine Learning Intern</h3>
+                    </div>
+                    <p>Machine Learning certified with hands-on internship experience.</p>
+                    <span class="cert-issuer">CodeTech</span>
+                </div>
+                <div class="certification-card glass-card">
+                    <div class="cert-header">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Design And Analysis of Algorithms</h3>
+                    </div>
+                    <p>Design and Analysis of Algorithms certified with hands-on internship experience.</p>
+                    <span class="cert-issuer">NPTEL</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Let's discuss how we can work
+                        together!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>akulanarendra20042006@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Visakhapatnam, India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/akula-narendra-kumar-45a891353/" class="social-link"
+                            target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/narendrakumar20" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://x.com/__narendra_20" class="social-link" target="_blank">
+                            <i class="fab fa-x"></i>
+                        </a>
+                        <a href="https://www.instagram.com/__narendra_20/" class="social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" novalidate>
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Akula Narendra Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
