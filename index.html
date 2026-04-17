@@ -636,6 +636,11 @@
         </div>
     </section>
 
+    <!-- Update Note -->
+    <div class="update-note">
+        <small>Last updated: <span id="timestamp"></span></small>
+    </div>
+    
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -644,6 +649,20 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        // Set update timestamp
+        document.addEventListener('DOMContentLoaded', function() {
+            const timestamp = document.getElementById('timestamp');
+            if (timestamp) {
+                const now = new Date();
+                timestamp.textContent = now.toLocaleDateString('en-US', { 
+                    year: 'numeric', 
+                    month: 'long', 
+                    day: 'numeric' 
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>
