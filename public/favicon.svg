@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Black background -->
+  <rect width="100" height="100" fill="#000000"/>
+  <!--
+    Correct "N" polygon — diagonal goes top-left DOWN to bottom-right (\):
+    Clockwise trace:
+    20,15 → 32,15  : top of left bar
+    32,15 → 68,72  : outer top edge of diagonal (top-left to bottom-right \)
+    68,72 → 68,15  : up inner right edge to top
+    68,15 → 80,15  : top of right bar
+    80,15 → 80,85  : right side of right bar
+    80,85 → 68,85  : bottom of right bar
+    68,85 → 32,28  : inner bottom edge of diagonal (bottom-right back to top-left)
+    32,28 → 32,85  : down inner left edge
+    32,85 → 20,85  : bottom of left bar
+  -->
+  <polygon
+    points="20,15 32,15 68,72 68,15 80,15 80,85 68,85 32,28 32,85 20,85"
+    fill="#1565FF"
+  />
+</svg>
