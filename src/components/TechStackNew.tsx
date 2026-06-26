@@ -1,4 +1,5 @@
 import "./styles/TechStackNew.css";
+import { asset } from "../utils/asset";
 
 interface TechItem {
   name: string;
@@ -74,7 +75,7 @@ const TechStackNew = () => {
           playsInline
           className="techstack-video"
         >
-          <source src="/video/video.webm" type="video/webm" />
+          <source src={asset("/video/video.webm")} type="video/webm" />
         </video>
         {/* Dark Overlay */}
         <div className="techstack-overlay"></div>

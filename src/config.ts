@@ -1,3 +1,5 @@
+import { asset } from "./utils/asset";
+
 export const config = {
     developer: {
         name: "Narendra",
@@ -101,7 +103,7 @@ export const config = {
             title: "InfiGrow",
             category: "Full Stack",
             technologies: "Firebase, React, Firestore, JavaScript",
-            image: "/images/votechain.png",
+            image: asset("/images/votechain.png"),
             description: "A comprehensive Firebase-based platform designed to boost college placements at ANITS by providing learners with resources, mentorship, and placement preparation tools.",
             liveUrl: ""
         },
@@ -119,7 +121,7 @@ export const config = {
             title: "Quiz-Master",
             category: "Full Stack",
             technologies: "HTML, CSS, JavaScript, JSON",
-            image: "/images/quiz-master.png",
+            image: asset("/images/quiz-master.png"),
             description: "A comprehensive CS quiz platform with 22 topics and 1,923+ questions. Users can test knowledge across Programming, DSA, AI/ML and more — with category filters and score tracking.",
             liveUrl: "https://quiz-master-phi-nine.vercel.app/"
         },
@@ -128,7 +130,7 @@ export const config = {
             title: "Portfolio Website",
             category: "Full Stack / 3D",
             technologies: "React, TypeScript, Three.js, GSAP, Vite",
-            image: "/images/portfolio-preview.png",
+            image: asset("/images/portfolio-preview.png"),
             description: "A stunning personal portfolio website featuring a 3D animated character powered by Three.js, smooth scroll effects with GSAP and Lenis, and a fully responsive modern design.",
             liveUrl: "https://narendrakumar20.github.io/Portfolio/"
         }

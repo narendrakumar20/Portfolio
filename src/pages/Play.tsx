@@ -2,6 +2,7 @@ import { useState, useCallback, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { Chess, Square, PieceSymbol, Color } from "chess.js";
 import RedoxChessEngine from "../utils/redoxchessEngine";
+import { asset } from "../utils/asset";
 import "./Play.css";
 
 // Piece SVG components matching chess.com style with custom colors
@@ -365,7 +366,7 @@ const Play = () => {
           <div className="player-bar opponent-bar">
             <div className="player-info">
               <div className="player-avatar">
-                <img src="/images/mypic.jpeg" alt="Narendra" />
+                <img src={asset("/images/mypic.jpeg")} alt="Narendra" />
               </div>
               <div className="player-details">
                 <span className="player-name">Narendra</span>
