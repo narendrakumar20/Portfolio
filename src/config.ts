@@ -94,7 +94,7 @@ export const config = {
             title: "Steel-Design-Predictor",
             category: "AI / ML",
             technologies: "Streamlit, Scikit-learn, Pandas, NumPy, Python",
-            image: "https://raw.githubusercontent.com/narendrakumar20/Portfolio/main/steel-predictor.png",
+            image: asset("/images/steel-predictor.png"),
             description: "A machine learning-based web application that predicts steel design properties and strength using input parameters for quick and accurate engineering decisions.",
             liveUrl: "https://steel-design-predictor.streamlit.app/"
         },
@@ -112,7 +112,7 @@ export const config = {
             title: "Translator",
             category: "AI / ML",
             technologies: "Flask, Transformers, PyTorch, Python",
-            image: "https://raw.githubusercontent.com/narendrakumar20/Portfolio/main/Translator.png",
+            image: asset("/images/translator.png"),
             description: "A platform for translating text between multiple languages using AI-based transformer models with real-time accuracy and automatic language detection.",
             liveUrl: "https://transalator.onrender.com/"
         },
