@@ -186,11 +186,7 @@ Your support is greatly appreciated!
 
 ---
 
-## 📄 License
 
-This project is licensed under the **MIT License**.
-
----
 
 <p align="center">
 Made with ❤️ by <strong>Narendra Kumar</strong>
